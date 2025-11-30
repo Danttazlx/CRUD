@@ -11,4 +11,15 @@ public class Controller {
     public String test(){
         return "Test API --------------------";
     }
+
+    @PostMapping()
+    public ResponseEntity<Product> salvar(@RequestBody Product product) {
+
+
+
+
+
+    }
+
+
 }
